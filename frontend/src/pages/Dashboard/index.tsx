@@ -20,7 +20,10 @@ const Dashboard = () => {
                         <DonoutChart />
                     </div>
                 </div>
+                <div className="col-sm-12">
+                        <h5>Todas vendas</h5>
                 <DataTable />
+                </div>
             </div>
             <Footer />
         </>
